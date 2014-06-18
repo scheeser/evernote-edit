@@ -1,0 +1,18 @@
+{
+    "menu": [
+        {
+            "label": "Packages",
+            "submenu": [
+                {
+                    "label": "Evernote Edit",
+                    "submenu": [
+                        {
+                            "label": "Toggle",
+                            "command": "evernote-edit:toggle"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

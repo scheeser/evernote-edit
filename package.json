@@ -1,0 +1,17 @@
+{
+    "name": "evernote-edit",
+    "main": "./lib/evernote-edit",
+    "version": "0.0.0",
+    "description": "A short description of your package",
+    "repository": "https://github.com/atom/evernote-edit",
+    "license": "MIT",
+    "engines": {
+        "atom": ">0.50.0"
+    },
+    "dependencies": {
+        "evernote": "1.25.3"
+    },
+    "activationEvents": [
+        "evernote-edit:toggle"
+    ]
+}
