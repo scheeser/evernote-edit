@@ -3,7 +3,7 @@
     "main": "./lib/main",
     "version": "0.0.0",
     "description": "A short description of your package",
-    "repository": "https://github.com/atom/evernote-edit",
+    "repository": "https://github.com/scheeser/evernote-edit",
     "license": "MIT",
     "engines": {
         "atom": ">0.50.0"
