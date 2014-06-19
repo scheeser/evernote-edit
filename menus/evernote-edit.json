@@ -7,8 +7,8 @@
                     "label": "Evernote Edit",
                     "submenu": [
                         {
-                            "label": "Toggle",
-                            "command": "evernote-edit:toggle"
+                            "label": "Open Note",
+                            "command": "evernote-edit:open-note"
                         }
                     ]
                 }

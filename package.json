@@ -1,6 +1,6 @@
 {
     "name": "evernote-edit",
-    "main": "./lib/evernote-edit",
+    "main": "./lib/main",
     "version": "0.0.0",
     "description": "A short description of your package",
     "repository": "https://github.com/atom/evernote-edit",
@@ -12,6 +12,6 @@
         "evernote": "1.25.3"
     },
     "activationEvents": [
-        "evernote-edit:toggle"
+        "evernote-edit:open-note"
     ]
 }
