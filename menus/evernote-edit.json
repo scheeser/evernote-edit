@@ -9,6 +9,10 @@
                         {
                             "label": "Open Note",
                             "command": "evernote-edit:open-note"
+                        },
+                        {
+                            "label": "Save Note",
+                            "command": "evernote-edit:save-note"
                         }
                     ]
                 }

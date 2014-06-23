@@ -9,9 +9,11 @@
         "atom": ">0.50.0"
     },
     "dependencies": {
-        "evernote": "1.25.3"
+        "evernote": "1.25.3",
+        "xmlbuilder": "2.2.1"
     },
     "activationEvents": [
-        "evernote-edit:open-note"
+        "evernote-edit:open-note",
+        "evernote-edit:save-note"
     ]
 }
