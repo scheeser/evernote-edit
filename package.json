@@ -9,8 +9,8 @@
         "atom": ">0.50.0"
     },
     "dependencies": {
+        "cheerio": "0.17.0",
         "evernote": "1.25.3",
-        "htmlparser2": "3.7.2",
         "xmlbuilder": "2.2.1"
     },
     "activationEvents": [
