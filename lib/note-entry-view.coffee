@@ -11,6 +11,9 @@ module.exports =
 class NoteEntryView extends View
   previouslyFocusedElement: null
 
+  constructor: (@asENML) ->
+    super
+
   @content: ->
     @div class: 'package-generator overlay from-top', =>
       @div class: 'text-error', outlet: 'error'
@@ -36,7 +39,7 @@ class NoteEntryView extends View
   confirm: ->
     guid = util.parseGuid(@miniEditor.getText())
     if guid
-      openNote(guid)
+      openNote(guid, @asENML)
       @detach()
     else
       @error.text("Unable to prase identifier from provided input")

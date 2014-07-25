@@ -13,6 +13,10 @@
                         {
                             "label": "Save Note",
                             "command": "evernote-edit:save-note"
+                        },
+                        {
+                            "label": "Open Note as ENML",
+                            "command": "evernote-edit:open-note-as-enml"
                         }
                     ]
                 }

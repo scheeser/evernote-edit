@@ -6,7 +6,7 @@
     "repository": "https://github.com/scheeser/evernote-edit",
     "license": "MIT",
     "engines": {
-        "atom": ">0.50.0"
+        "atom": ">0.117.0"
     },
     "dependencies": {
         "cheerio": "0.17.0",
@@ -15,6 +15,7 @@
     },
     "activationEvents": [
         "evernote-edit:open-note",
+        "evernote-edit:open-note-as-enml",
         "evernote-edit:save-note"
     ]
 }
