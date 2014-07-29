@@ -27,7 +27,7 @@ class NoteEntryView extends View
 
   attach: ->
     @previouslyFocusedElement = $(':focus')
-    @message.text("Enter note link")
+    @message.text("Enter note link or GUID")
     atom.workspaceView.append(this)
     @miniEditor.focus()
 
